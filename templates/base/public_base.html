@@ -1,0 +1,25 @@
+{% extends "base/base.html" %}
+
+{% load static %}
+{% load sass_tags %}
+
+{% block extrahead %}
+    <link rel="stylesheet" href="{% sass_src 'sass/base/public_base.sass' %}">
+{% endblock %}
+
+{% block content %}
+	<header>
+		<div class="fl aic">
+			<h1 class="">EC Sample</h1>
+			<nav class="mlauto">
+				<ul class="nav fl">
+					<li><a href="" class="nav_btn _login fl mr1">カート</a></li>
+					<li><a href="" class="nav_btn _login fl mr1">ログイン</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+{% endblock %}
+
+{% block extrajs %}
+{% endblock %}

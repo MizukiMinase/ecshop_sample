@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "public_base.css",
+	"sources": [
+		"public_base.sass"
+	],
+	"names": [],
+	"mappings": ""
+}

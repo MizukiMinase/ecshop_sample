@@ -1,0 +1,64 @@
+{% extends 'base/public_base.html' %}
+
+{% load static %}
+{% load sass_tags %}
+
+{% block meta_title %}EC Sample{% endblock %}
+{% block meta_description %}{% endblock %}
+
+{% block extrahead %}
+	{{ block.super }}
+    <link rel="stylesheet" href="{% sass_src 'sass/shop/top.sass' %}">
+{% endblock %}
+
+
+{% block content %}
+	{{ block.super }}
+	<main id="main" class="pt5 pb5">
+{#		<div class="heading _wr">#}
+{##}
+{#		</div>#}
+		<div class="content _wr">
+			<h2 class="content _title fl jcc aic mb3">category 1</h2>
+			<div class="prod gr">
+				<div class="prod _el fl cl jcc aic pb2"><div class="prod _img fl aic"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div><div class="prod _title">product name</div></div>
+				<div class="prod _el fl cl jcc aic pb2"><div class="prod _img fl aic"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div><div class="prod _title">product name</div></div>
+				<div class="prod _el fl cl jcc aic pb2"><div class="prod _img fl aic"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div><div class="prod _title">product name</div></div>
+				<div class="prod _el fl cl jcc aic pb2"><div class="prod _img fl aic"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div><div class="prod _title">product name</div></div>
+				<div class="prod _el fl cl jcc aic pb2"><div class="prod _img fl aic"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div><div class="prod _title">product name</div></div>
+				<div class="prod _el fl cl jcc aic pb2"><div class="prod _img fl aic"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div><div class="prod _title">product name</div></div>
+			</div>
+			<div class="more _link mr4"><a href="" class="more _a">...more</a></div>
+		</div>
+		<div class="content _wr">
+			<h2 class="content _title fl jcc aic mb3">category 2</h2>
+			<div class="prod gr">
+				<div class="prod _el fl cl jcc aic pb2"><div class="prod _img fl aic"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div><div class="prod _title">product name</div></div>
+				<div class="prod _el fl cl jcc aic pb2"><div class="prod _img fl aic"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div><div class="prod _title">product name</div></div>
+				<div class="prod _el fl cl jcc aic pb2"><div class="prod _img fl aic"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div><div class="prod _title">product name</div></div>
+				<div class="prod _el fl cl jcc aic pb2"><div class="prod _img fl aic"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div><div class="prod _title">product name</div></div>
+				<div class="prod _el fl cl jcc aic pb2"><div class="prod _img fl aic"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div><div class="prod _title">product name</div></div>
+				<div class="prod _el fl cl jcc aic pb2"><div class="prod _img fl aic"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div><div class="prod _title">product name</div></div>
+			</div>
+			<div class="more _link mr4"><a href="" class="more _a">...more</a></div>
+		</div>
+		<div class="content _wr">
+			<h2 class="content _title fl jcc aic mb3">category 3</h2>
+			<div class="prod gr">
+				<div class="prod _el fl cl jcc aic pb2"><div class="prod _img fl aic"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div><div class="prod _title">product name</div></div>
+				<div class="prod _el fl cl jcc aic pb2"><div class="prod _img fl aic"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div><div class="prod _title">product name</div></div>
+				<div class="prod _el fl cl jcc aic pb2"><div class="prod _img fl aic"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div><div class="prod _title">product name</div></div>
+				<div class="prod _el fl cl jcc aic pb2"><div class="prod _img fl aic"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div><div class="prod _title">product name</div></div>
+				<div class="prod _el fl cl jcc aic pb2"><div class="prod _img fl aic"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div><div class="prod _title">product name</div></div>
+				<div class="prod _el fl cl jcc aic pb2"><div class="prod _img fl aic"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div><div class="prod _title">product name</div></div>
+			</div>
+			<div class="more _link mr4"><a href="" class="more _a">...more</a></div>
+		</div>
+
+	</main>
+{% endblock %}
+
+
+{% block extrajs %}
+	{{ block.super }}
+{% endblock %}
