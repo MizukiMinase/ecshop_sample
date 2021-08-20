@@ -1,0 +1,30 @@
+.title
+    max-width: 1040px
+    margin: auto
+    font-size: 1.5rem
+    &:after
+        content: ''
+        height: 1px
+        background-color: #666
+        flex-grow: 1
+        margin-left: 1rem
+.content._wr
+    max-width: 1040px
+    margin: auto
+    grid-template-columns: 1fr 1fr 1fr
+    .prod._wr
+        padding-bottom: 3rem
+        &:hover
+            ._title
+                text-decoration: underline
+        .prod._title
+            margin-top: 0
+            margin-bottom: 0
+        .meta._wr
+            padding-top: .25rem
+            padding-left: .5rem
+            color: #2950a5
+            .prod._price
+                font-size: 1.25rem
+                color: #ff0000
+                text-align: right

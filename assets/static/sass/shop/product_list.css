@@ -1,0 +1,3 @@
+.title{max-width:1040px;margin:auto;font-size:1.5rem}.title:after{content:'';height:1px;background-color:#666;flex-grow:1;margin-left:1rem}.content._wr{max-width:1040px;margin:auto;grid-template-columns:1fr 1fr 1fr}.content._wr .prod._wr{padding-bottom:3rem}.content._wr .prod._wr:hover ._title{text-decoration:underline}.content._wr .prod._wr .prod._title{margin-top:0;margin-bottom:0}.content._wr .prod._wr .meta._wr{padding-top:.25rem;padding-left:.5rem;color:#2950a5}.content._wr .prod._wr .meta._wr .prod._price{font-size:1.25rem;color:#ff0000;text-align:right}
+
+/*# sourceMappingURL=product_list.css.map */

@@ -1,0 +1,133 @@
+{% extends 'base/public_base.html' %}
+
+{% load static %}
+{% load sass_tags %}
+
+{% block meta_title %}Product List Page | EC Sample{% endblock %}
+{% block meta_description %}{% endblock %}
+
+{% block extrahead %}
+	{{ block.super }}
+    <link rel="stylesheet" href="{% sass_src 'sass/shop/product_list.sass' %}">
+{% endblock %}
+
+{% block content%}
+    {{ block.super }}
+    <main id="main" class="pt3 pb5">
+        <h2 class="title fl jcc aic">Category Name</h2>
+        <div class="content _wr pt3 gr">
+            <div class="fl jcc">
+                <a href="{% url 'shop:product_detail' %}" class="prod _wr fl cl">
+                    <div class="img _wr fl aic jcc"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div>
+                    <div class="meta _wr"><h3 class="prod _title">product name</h3><div class="prod _price">￥2000</div></div>
+                </a>
+            </div>
+            <div class="fl jcc">
+                <a href="{% url 'shop:product_detail' %}" class="prod _wr fl cl">
+                    <div class="img _wr fl aic jcc"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div>
+                    <div class="meta _wr"><h3 class="prod _title">product name</h3><div class="prod _price">￥2000</div></div>
+                </a>
+            </div>
+            <div class="fl jcc">
+                <a href="{% url 'shop:product_detail' %}" class="prod _wr fl cl">
+                    <div class="img _wr fl aic jcc"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div>
+                    <div class="meta _wr"><h3 class="prod _title">product name</h3><div class="prod _price">￥2000</div></div>
+                </a>
+            </div>
+            <div class="fl jcc">
+                <a href="{% url 'shop:product_detail' %}" class="prod _wr fl cl">
+                    <div class="img _wr fl aic jcc"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div>
+                    <div class="meta _wr"><h3 class="prod _title">product name</h3><div class="prod _price">￥2000</div></div>
+                </a>
+            </div>
+            <div class="fl jcc">
+                <a href="{% url 'shop:product_detail' %}" class="prod _wr fl cl">
+                    <div class="img _wr fl aic jcc"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div>
+                    <div class="meta _wr"><h3 class="prod _title">product name</h3><div class="prod _price">￥2000</div></div>
+                </a>
+            </div>
+            <div class="fl jcc">
+                <a href="{% url 'shop:product_detail' %}" class="prod _wr fl cl">
+                    <div class="img _wr fl aic jcc"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div>
+                    <div class="meta _wr"><h3 class="prod _title">product name</h3><div class="prod _price">￥2000</div></div>
+                </a>
+            </div>
+            <div class="fl jcc">
+                <a href="{% url 'shop:product_detail' %}" class="prod _wr fl cl">
+                    <div class="img _wr fl aic jcc"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div>
+                    <div class="meta _wr"><h3 class="prod _title">product name</h3><div class="prod _price">￥2000</div></div>
+                </a>
+            </div>
+            <div class="fl jcc">
+                <a href="{% url 'shop:product_detail' %}" class="prod _wr fl cl">
+                    <div class="img _wr fl aic jcc"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div>
+                    <div class="meta _wr"><h3 class="prod _title">product name</h3><div class="prod _price">￥2000</div></div>
+                </a>
+            </div>
+            <div class="fl jcc">
+                <a href="{% url 'shop:product_detail' %}" class="prod _wr fl cl">
+                    <div class="img _wr fl aic jcc"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div>
+                    <div class="meta _wr"><h3 class="prod _title">product name</h3><div class="prod _price">￥2000</div></div>
+                </a>
+            </div>
+            <div class="fl jcc">
+                <a href="{% url 'shop:product_detail' %}" class="prod _wr fl cl">
+                    <div class="img _wr fl aic jcc"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div>
+                    <div class="meta _wr"><h3 class="prod _title">product name</h3><div class="prod _price">￥2000</div></div>
+                </a>
+            </div>
+            <div class="fl jcc">
+                <a href="{% url 'shop:product_detail' %}" class="prod _wr fl cl">
+                    <div class="img _wr fl aic jcc"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div>
+                    <div class="meta _wr"><h3 class="prod _title">product name</h3><div class="prod _price">￥2000</div></div>
+                </a>
+            </div>
+            <div class="fl jcc">
+                <a href="{% url 'shop:product_detail' %}" class="prod _wr fl cl">
+                    <div class="img _wr fl aic jcc"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div>
+                    <div class="meta _wr"><h3 class="prod _title">product name</h3><div class="prod _price">￥2000</div></div>
+                </a>
+            </div>
+            <div class="fl jcc">
+                <a href="{% url 'shop:product_detail' %}" class="prod _wr fl cl">
+                    <div class="img _wr fl aic jcc"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div>
+                    <div class="meta _wr"><h3 class="prod _title">product name</h3><div class="prod _price">￥2000</div></div>
+                </a>
+            </div>
+            <div class="fl jcc">
+                <a href="{% url 'shop:product_detail' %}" class="prod _wr fl cl">
+                    <div class="img _wr fl aic jcc"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div>
+                    <div class="meta _wr"><h3 class="prod _title">product name</h3><div class="prod _price">￥2000</div></div>
+                </a>
+            </div>
+            <div class="fl jcc">
+                <a href="{% url 'shop:product_detail' %}" class="prod _wr fl cl">
+                    <div class="img _wr fl aic jcc"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div>
+                    <div class="meta _wr"><h3 class="prod _title">product name</h3><div class="prod _price">￥2000</div></div>
+                </a>
+            </div>
+            <div class="fl jcc">
+                <a href="{% url 'shop:product_detail' %}" class="prod _wr fl cl">
+                    <div class="img _wr fl aic jcc"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div>
+                    <div class="meta _wr"><h3 class="prod _title">product name</h3><div class="prod _price">￥2000</div></div>
+                </a>
+            </div>
+            <div class="fl jcc">
+                <a href="{% url 'shop:product_detail' %}" class="prod _wr fl cl">
+                    <div class="img _wr fl aic jcc"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div>
+                    <div class="meta _wr"><h3 class="prod _title">product name</h3><div class="prod _price">￥2000</div></div>
+                </a>
+            </div>
+            <div class="fl jcc">
+                <a href="{% url 'shop:product_detail' %}" class="prod _wr fl cl">
+                    <div class="img _wr fl aic jcc"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div>
+                    <div class="meta _wr"><h3 class="prod _title">product name</h3><div class="prod _price">￥2000</div></div>
+                </a>
+            </div>
+
+        </div>
+    </main>
+{% endblock %}
+
+{% block extrajs %}
+{% endblock %}
