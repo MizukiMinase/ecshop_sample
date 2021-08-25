@@ -13,6 +13,22 @@
 
 {% block content%}
     {{ block.super }}
+    <main id="main" class="pt3 pb5">
+        <div class="content _wr">
+            <div class="fl">
+                <div class="img _wr"><img src="http://placehold.jp/250x150.png?text=Sample Image"></div>
+                <div class="fl cl w100">
+                    <div class="prod _meta pl2 pr2">
+                        <h2 class="prod _title">Product Name</h2>
+                        <div class="prod _description">商品説明欄</div>
+                    </div>
+                    <div class="tocart _wr pl2 pr2 pt2 pb2">
+                        <a class="tocart _btn fl jcc">カートに入れる</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 {% endblock %}
 
 {% block extrajs %}
